@@ -1,0 +1,16 @@
+        TEXT FONT:
+
+- Montserrat
+
+
+        COLOR:
+
+- #152237
+- #44DD8A
+- #15B7E2
+- #FFC700
+
+        SIZES:
+
+- NAV BOX:
+    80 height
