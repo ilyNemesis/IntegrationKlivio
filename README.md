@@ -2,8 +2,8 @@
 
 ## Links
 - [Trello]()
-- [HTML/CSS](https://github.com/OnyxXs/Integration_Klivio)
-- [HTML/Tailwind](https://github.com/OnyxXs/Integration_Klivio_Tailwind)
+- [HTML/CSS](https://github.com/OnyxXs/IntegrationKlivio)
+- [HTML/Tailwind](https://github.com/OnyxXs/Integration_KlivioTailwind)
 
 
 ## 🙇 Author
