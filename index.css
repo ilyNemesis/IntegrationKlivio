@@ -14,10 +14,17 @@ html * {
 /* Nav Box CSS */
 
 
+/* Hero CSS */
+
+.main__hero {
+    background-image: url(assets/img/bg-header.png);
+}
+
 /* Header CSS */
 
 #HeaderImg {
-    filter: brightness(50%);
+    filter: opacity(50%);
+    color: linear-gradient(#44DD8A #15B7E2);
 }
 
 /* Stars CSS */
