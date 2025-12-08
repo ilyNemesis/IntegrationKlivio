@@ -1,3 +1,5 @@
+/* Whole body CSS */
+
 .montserrat-montserratfont {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -9,6 +11,20 @@ html * {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Nav Box CSS */
+
+
+/* Header CSS */
+
 #HeaderImg {
     filter: brightness(50%);
+}
+
+/* Stars CSS */
+#star {
+    color: #FFC700;
+}
+
+#star-brightness {
+    color: #FFC700;
 }
