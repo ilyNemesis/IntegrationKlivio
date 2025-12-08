@@ -6,4 +6,4 @@
 
 
 ## 🙇 Author
-- Github: [@ilyNemesis](https://github.com/illyNemesis)
+- Github: [@ilyNemesis](https://github.com/ilyNemesis)
