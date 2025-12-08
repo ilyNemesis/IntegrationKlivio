@@ -10,16 +10,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body main="main">
     <!-- NAV BOX -->
 
+    <div class="main__NavBox">
+        <img src="assets/img/logo.png" alt="Logo Klivio">
+        <p>Les formations</p>
+        <input type="text" placeholder="Rechercher">
+        <button class="main__NavBox__button-SignUp">Connexion</button>
+        <button class="main__NavBox__button-SignIn">Inscription</button>
+    </div>
 
     <!-- HERO BOX-->
 
     <div class="main__hero">
-        <h1>KLIVIO, L'ALLIÉ</h1>
+        <h1>KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h1>
         <h2>LES MEILLEURS FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</h2>
-        <p>En savoir plus</p>
+        <button class="main__hero__button-LearnMore">En savoir plus</button>
     </div>
 
     <!-- MAIN -->
@@ -28,6 +35,10 @@
         <h1>Les formations populaires</h1>
         <div class="main__formation-populaire__public-speech">
             <img src="assets/img/img-course.png" alt="formation Gérer son stress">
+            <div class="main__formation-populaire__public-speech__price">
+                <h1>15,99 €</h1>
+                <p>60 €</p>
+            </div>
             <h1>Parler en public</h1>
             <p>Sonia Lefèvre | Coach prise de parole</p>
             <div class="main__formation-populaire__public-speech__rating">
@@ -41,6 +52,10 @@
         </div>
         <div id="main__formation-populaire__stress">
             <img src="assets/img/img-course.png" alt="formation Gérer son stress">
+            <div class="main__formation-populaire__stress__price">
+                <h1>15,99 €</h1>
+                <p>60 €</p>
+            </div>
             <h1>Gérer le stress</h1>
             <p>Lucie Garnier | Formatrice</p>
             <div class="main__formation-populaire__stress__rating">
@@ -54,6 +69,10 @@
         </div>
         <div class="main__formation-populaire__travail-equipe">
             <img src="assets/img/img-course.png" alt="formation travailler en équipe">
+            <div class="main__formation-populaire__travail-equipe__price">
+                <h1>15,99 €</h1>
+                <p>60 €</p>
+            </div>
             <h1>Travailler en équipe</h1>
             <p>David Moreau | Expert</p>
             <div class="main__formation-populaire__travail-equipe__rating">
@@ -67,6 +86,10 @@
         </div>
         <div class="main__formation-populaire__time-management">
             <img src="assets/img/img-course.png" alt="formation gérer son temps">
+            <div class="main__formation-populaire__time-management__price">
+                <h1>15,99 €</h1>
+                <p>60 €</p>
+            </div>
             <h1>Gérer son temps</h1>
             <p>Claire Dumas | Coach organisation</p>
             <div class="main__formation-populaire__time-management__rating">
@@ -78,12 +101,19 @@
             </div>
             <p>Optimisez vos journées et gagnez en efficacité</p>
         </div>
+        <div class="main__formation-populaire__LearnMore">
+            <button class="main__formation-populaire__LearnMore__button">Voir plus de formations</button>
+        </div>
     </div>
 
     <div class="main__formations-recentes">
         <h1>Les formations récentes</h1>
         <div class="main__formations-recentes__mieux-communiquer">
             <img src="assets/img/img-course.png" alt="formation mieux communiquer">
+            <div class="main__formations-recentes__mieux-communiquer__price">
+                <h1>15,99 €</h1>
+                <p>60 €</p>
+            </div>
             <h1>Mieux communiquer</h1>
             <p>Julien Martel | Coach en comm.</p>
             <div class="main__formations-recentes__mieux-communiquer__rating">
@@ -97,6 +127,10 @@
         </div>
         <div class="main__formations-recentes__maitrise-emotions">
             <img src="assets/img/img-course.png" alt="formation maitriser ses emotions">
+            <div class="main__formations-recentes__maitrise-emotions__price">
+                <h1>15,99 €</h1>
+                <p>60 €</p>
+            </div>
             <h1>Maîtriser ses émotions</h1>
             <p>Amel Benali | psy. du travail</p>
             <div class="main__formations-recentes__maitrise-emotions__rating">
@@ -110,6 +144,10 @@
         </div>
         <div class="main__formations-recentes__resolve-problem">
             <img src="assets/img/img-course.png" alt="formation resoudre les problèmes">
+            <div class="main__formations-recentes__resolve-problem__price">
+                <h1>15,99 €</h1>
+                <p>60 €</p>
+            </div>
             <h1>Résoudre les problèmes</h1>
             <p>Thomas Rivière | Expert</p>
             <div class="main__formations-recentes__resolve-problem__rating">
@@ -123,6 +161,10 @@
         </div>
         <div class="main__formations-recentes__leadership">
             <img src="assets/img/img-course.png" alt="formation leadership positif">
+            <div class="main__formations-recentes__leadership__price">
+                <h1>15,99 €</h1>
+                <p>60 €</p>
+            </div>
             <h1>Leadership positif</h1>
             <p>Marc Nguyen | Consultant</p>
             <div class="main__formations-recentes__leadership__rating">
@@ -134,14 +176,15 @@
             </div>
             <p>Inspirez, motivez et fédérez votre équipe</p>
         </div>
-        <div>
-            <p>Voir plus de formations</p>
+        <div class="main__formations-recentes__LearnMore">
+            <button class="main__formations-recentes__LearnMore__button">Voir plus de formations</button>
         </div>
     </div>
 
     <div class="main__avis-clients">
         <h1>AVIS CLIENTS</h1>
         <div class="main__avis-clients__juliette">
+            <img class="main__avis-clients__juliette__img" src="assets/img/juliette.png" alt="photo de profile de Juliette">
             <h2>Juliette</h2>
             <div class="main__avis-clients__juliette__rating">
                 <i class="fa-solid fa-star" id="star"></i>
@@ -156,6 +199,7 @@
                 motivante — parfait pour se former en autonomie.</p>
         </div>
         <div class="main__avis-clients__camille">
+            <img class="main__avis-clients__camille__img" src="assets/img/camille.png" alt="photo de profile de Camille">
             <h2>Camille</h2>
             <div class="main__avis-clients__camille__rating">
                 <i class="fa-solid fa-star" id="star"></i>
@@ -171,15 +215,18 @@
     </div>
 
     <div class="main__avantages">
+        <h1>LES AVANTAGES KLIVIO</h1>
         <p>Suivi de sa progression <br>
             Exercices et QCM pour la mise en pratique<br>
             Possibilité de télécharger/imprimer les formations<br>
             Contenu qualitatif et vérifié<br>
             Suivi en autonomie, 24h/24, 7j/7<br>
             Espaces d&#39échanges dédiés pour poser ses questions sur les formations</p>
+        <img src="assets/img/avantages.png" alt="Humain de type femelle, souriante, devant son ordinateur portatif">
     </div>
 
     <div class="main__create">
+        <h1>CRÉEZ VOS FORMATIONS AVEC KLIVIO</h1>
         <p>Commission unique, au pourcentage sur les ventes<br>
             Mise en avant sur la plateforme<br>
             Contrôle total sur le cours : contenu, prix<br>
@@ -187,11 +234,12 @@
                 possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, 
                 suivi des statistiques des ventes, gestion de codes promos, gestion de la 
                 facturation, etc
-            Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d&#39auteur</p>
+            Le professeur reste 100% propriétaire de sa formation 
+            et conserve tous ses droits d&#39auteur</p>
+        <img src="assets/img/become-author.png">
     </div>
 
     <div class="main__about">
-        <div class="main__about__text">
             <h1>À PROPOS DE KLIVIO</h1>
             <p>Chez Klivio, nous défendons des valeurs fondamentales qui 
                 définissent notre approche éducative. Nous nous engageons à 
@@ -203,6 +251,9 @@
                 formations que les instructeurs proposent. Ensemble, ces valeurs 
                 forment le socle d'une  ducation enrichissante et équitable, guidant 
                 notre mission d'offrir des pportunités d'apprentissage de qualité</p>
+            <div class="main__about__logo">
+                <img src="assets/img/logo.png">
+            </div>
         </div>
         <div id="logoAbout">
 
@@ -212,10 +263,11 @@
     <div class="main__contact">
         <!-- REMPLACER PAR UN FORMULAIRE -->
         <h1>NOUS CONTACTER</h1>
-        <p>Nom</p>
-        <p>Email</p>
-        <p>Votre message</p>
-
+        <form action="" method="get" class="main__contact__form">
+            <input class="main__contact__form__name" type="text" placeholder="Nom">
+            <input class="main__contact__form__email" class="main__contact__form" type="text" placeholder="Email">
+            <input class="main__contact__form__msg" type="text" placeholder="Votre message">
+        </form>
         <button class="main__contact__button" type="button">Envoyer</button>
     </div>
 

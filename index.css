@@ -13,21 +13,72 @@ html * {
 
 /* Nav Box CSS */
 
+.main__NavBox {
+    background-color: #152237;
+    color: #FFFFFF;
+    display: flex;
+}
 
 /* Hero CSS */
 
 .main__hero {
+    width: 100%;
+    height: 100%;
     background-image: url(assets/img/bg-header.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Header CSS */
+.main__hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #44DD8A, #15B7E2);
+    width: 100%;
+    opacity: 80%;
+    z-index: 1; /* prio de bg, s'affiche tout en dessous */
+}
 
-#HeaderImg {
-    filter: opacity(50%);
-    color: linear-gradient(#44DD8A #15B7E2);
+.main__hero h1 {
+    color: #152237;
+    text-align: center;
+    position: relative;
+    z-index: 2; /* prio du texte, s'affiche devant le bg */
+}
+
+.main__hero h2 {
+    color: #152237;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.main__hero button {
+    color: #152237;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+/* Formations populaires CSS */
+
+
+/* Formations populaires CSS */
+
+.main__formations-recentes {
+    background-color: #152237;
+    color: #FFFFFF;
 }
 
 /* Stars CSS */
+
 #star {
     color: #FFC700;
 }
