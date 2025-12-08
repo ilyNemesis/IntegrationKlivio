@@ -1,9 +1,8 @@
-# <p align="center">Integration_Klivio</p>
+# <p align="center">Integration Klivio</p>
 
 ## Links
-- [Trello]()
-- [HTML/CSS](https://github.com/OnyxXs/IntegrationKlivio)
-- [HTML/Tailwind](https://github.com/OnyxXs/Integration_KlivioTailwind)
+- [HTML/CSS](https://github.com/ilyNemesis/IntegrationKlivio)
+- [HTML/Tailwind](https://github.com/ilyNemesis/IntegrationKlivioTailwind)
 
 
 ## 🙇 Author
