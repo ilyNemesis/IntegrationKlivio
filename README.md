@@ -7,4 +7,4 @@
 
 
 ## 🙇 Author
-- Github: [@OnyxX](https://github.com/OnyxXs)
+- Github: [@ilyNemesis](https://github.com/illyNemesis)
