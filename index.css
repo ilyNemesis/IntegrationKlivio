@@ -14,9 +14,26 @@ html * {
 /* Nav Box CSS */
 
 .main__NavBox {
+    width: 100vh;
+    height: auto;
     background-color: #152237;
     color: #FFFFFF;
     display: flex;
+}
+
+.main__NavBox img {
+    height: 10%;
+    width: 10%;
+    padding: 2%;
+}
+
+.main__NavBox__burgerMenu {
+    display: none; /* cache par défaut */
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
 }
 
 /* Hero CSS */
@@ -70,12 +87,16 @@ html * {
 /* Formations populaires CSS */
 
 
-/* Formations populaires CSS */
+
+/* Formations récentes CSS */
 
 .main__formations-recentes {
+    width: 100vh;
     background-color: #152237;
     color: #FFFFFF;
 }
+
+/* About us */
 
 /* Stars CSS */
 
