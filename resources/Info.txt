@@ -1,6 +1,7 @@
         TEXT FONT:
 
 - Montserrat
+- Font awesome (icones)
 
 
         COLOR:

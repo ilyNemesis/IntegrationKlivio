@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WAC: Projet Integration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <!-- NAV BOX -->
@@ -11,55 +15,66 @@
 
     <!-- HERO BOX-->
 
-    <h1>KLIVIO, L'ALLIÉ</h1>
-    <h2>LES MEILLEURS FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</h2>
-    <p>En savoir plus</p>
+    <div class="main__hero">
+        <img id="HeaderImg" src="assets/img/bg-header.png" alt="background header">
+        <h1>KLIVIO, L'ALLIÉ</h1>
+        <h2>LES MEILLEURS FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</h2>
+        <p>En savoir plus</p>
+    </div>
 
     <!-- MAIN -->
 
-    <div id="FormationPopulaire">
+    <div class="main__formations-populaire">
         <h1>Les formations populaires</h1>
-        <div class="FormationParlerEnPublic">
+        <div class="main__formation-populaire__public-speech">
+            <img src="assets/img/img-course.png" alt="formation parler en publique">
             <h1>Parler en public</h1>
             <p>Sonia Lefèvre | Coach prise de parole</p>
             <p>Gagnez en aisance et captez votre auditoire</p>
         </div>
-        <div class="FormationGererLeStress">
+        <div id="main__formation-populaire__stress">
+            <img src="assets/img/img-course.png" alt="formation Gérer son stress">
             <h1>Gérer le stress</h1>
             <p>Lucie Garnier | Formatrice</p>
             <p>Apprenez à rester serein face aux défis</p>
         </div>
-        <div class="FormationTravaillerEnEquipe">
+        <div class="main__formation-populaire__travail-equipe">
+            <img src="assets/img/img-course.png" alt="formation travailler en équipe">
             <h1>Travailler en équipe</h1>
             <p>David Moreau | Expert</p>
             <p>Collaborez efficacement, même à distance</p>
         </div>
-        <div class="FormationGererSonTemps">
+        <div class="main__formation-populaire__time-management">
+            <img src="assets/img/img-course.png" alt="formation gérer son temps">
             <h1>Gérer son temps</h1>
             <p>Claire Dumas | Coach organisation</p>
             <p>Optimisez vos journées et gagnez en efficacité</p>
         </div>
     </div>
 
-    <div id="FormationRecente">
+    <div class="main__formations-recentes">
         <h1>Les formations récentes</h1>
-        <div>
+        <div class="main__formations-recentes__mieuc-communiquer">
+            <img src="assets/img/img-course.png" alt="formation mieux communiquer">
             <h1>Mieux communiquer</h1>
             <p>Julien Martel | Coach en comm.</p>
             <p>Améliorez vos échanges et votre impact relationnel</p>
         </div>
-        <div>
-            <h1>Maîtrisez ses émotions</h1>
+        <div class="main__formations-recentes__maitrise-emotions">
+            <img src="assets/img/img-course.png" alt="formation maitriser ses emotions">
+            <h1>Maîtriser ses émotions</h1>
             <p>Amel Benali | psy. du travail</p>
             <p>Développez calme et intelligence émotionnelle</p>
         </div>
-        <div>
+        <div class="main__formations-recentes__resolve-problem">
+            <img src="assets/img/img-course.png" alt="formation resoudre les problèmes">
             <h1>Résoudre les problèmes</h1>
             <p>Thomas Rivière | Expert</p>
             <p>Analysez, décidez et trouvez des solutions durables</p>
         </div>
-        <div>
-            <h1>Leasership positif</h1>
+        <div class="main__formations-recentes__leadership">
+            <img src="assets/img/img-course.png" alt="formation leadership positif">
+            <h1>Leadership positif</h1>
             <p>Marc Nguyen | Consultant</p>
             <p>Inspirez, motivez et fédérez votre équipe</p>
         </div>
@@ -68,9 +83,72 @@
         </div>
     </div>
 
-    
+    <div class="main__avis-clients">
+        <h1>AVIS CLIENTS</h1>
+        <div class="main__avis-clients__juliette">
+            <h2>Juliette</h2>
+            <p>J&#39ai trouvé le parcours très bien structuré : vidéos courtes, 
+                quizzes pertinents et projets pratiques qui m&#39ont permis d&#39appliquer 
+                immédiatement les notions. L&#39interface est claire et la progression est 
+                motivante — parfait pour se former en autonomie.</p>
+        </div>
+        <div class="main__avis-clients__camille">
+            <h2>Camille</h2>
+            <p>Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, 
+                et le support et les corrections automatiques ont vraiment aidé. 
+                Idéal pour démarrer et progresser rapidement.</p>
+        </div>
+    </div>
 
+    <div class="main__avantages">
+        <p>Suivi de sa progression <br>
+            Exercices et QCM pour la mise en pratique<br>
+            Possibilité de télécharger/imprimer les formations<br>
+            Contenu qualitatif et vérifié<br>
+            Suivi en autonomie, 24h/24, 7j/7<br>
+            Espaces d&#39échanges dédiés pour poser ses questions sur les formations</p>
+    </div>
+
+    <div class="main__create">
+        <p>Commission unique, au pourcentage sur les ventes<br>
+            Mise en avant sur la plateforme<br>
+            Contrôle total sur le cours : contenu, prix<br>
+            Fonctionnalités avancées : espace commentaires, 
+                possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, 
+                suivi des statistiques des ventes, gestion de codes promos, gestion de la 
+                facturation, etc
+            Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d&#39auteur</p>
+    </div>
+
+    <div class="main__about">
+        <div class="main__about__text">
+            <h1>À PROPOS DE KLIVIO</h1>
+            <p>Chez Klivio, nous défendons des valeurs fondamentales qui 
+                définissent notre approche éducative. Nous nous engageons à 
+                assurer une rémunération équitable pour les créateurs de contenu, 
+                reconnaissant la qualité de leur travail. <br>
+                Favorisant l'autonomie d'apprentissage, notre plateforme offre 
+                la flexibilité  écessaire pour explorer divers sujets. La transparence est 
+                au cœur de notre démarche, garantissant une clarté totale sur les 
+                formations que les instructeurs proposent. Ensemble, ces valeurs 
+                forment le socle d'une  ducation enrichissante et équitable, guidant 
+                notre mission d'offrir des pportunités d'apprentissage de qualité</p>
+        </div>
+        <div id="logoAbout">
+
+        </div>
+    </div>
+
+    <div class="main__contact">
+        <!-- REMPLACER pAR UN FORMULAIRE -->
+        <h1>NOUS CONTACTER</h1>
+        <p>Nom</p>
+        <p>Email</p>
+        <p>Votre message</p>
+        <button class="main__contact__button" type="button">Envoyer</button>
+    </div>
     <!-- FOOTER -->
 
 </body>
+
 </html>
