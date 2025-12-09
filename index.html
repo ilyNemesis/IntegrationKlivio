@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="index.css">
 </head>
-<body main="main">
+<body class="main">
     <!-- NAV BOX -->
 
     <div class="main__NavBox">
@@ -28,6 +28,7 @@
         <nav class="main__NavBox__elements">
             <p>Les formations</p>
             <input type="text" placeholder="Rechercher">
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
             <button class="main__NavBox__button-SignUp">Connexion</button>
             <button class="main__NavBox__button-SignIn">Inscription</button>
         </nav>
@@ -75,7 +76,7 @@
                 <i class="fa-solid fa-star" id="star"></i>
                 <i class="fa-solid fa-star" id="star"></i>
                 <i class="fa-solid fa-star" id="star"></i>
-                <i class="fa-solid fa-star" id="star"></i>
+                <i class="fa-solid fa-star" id="star-opacity"></i>
             </div>
             <p>Apprenez à rester serein face aux défis</p>
         </div>
@@ -109,7 +110,7 @@
                 <i class="fa-solid fa-star" id="star"></i>
                 <i class="fa-solid fa-star" id="star"></i>
                 <i class="fa-solid fa-star" id="star"></i>
-                <i class="fa-solid fa-star" id="star"></i>
+                <i class="fa-solid fa-star" id="star-opacity"></i>
             </div>
             <p>Optimisez vos journées et gagnez en efficacité</p>
         </div>
@@ -167,7 +168,7 @@
                 <i class="fa-solid fa-star" id="star"></i>
                 <i class="fa-solid fa-star" id="star"></i>
                 <i class="fa-solid fa-star" id="star"></i>
-                <i class="fa-solid fa-star" id="star"></i>
+                <i class="fa-solid fa-star" id="star-opacity"></i>
             </div>
             <p>Analysez, décidez et trouvez des solutions durables</p>
         </div>
@@ -184,7 +185,7 @@
                 <i class="fa-solid fa-star" id="star"></i>
                 <i class="fa-solid fa-star" id="star"></i>
                 <i class="fa-solid fa-star" id="star"></i>
-                <i class="fa-solid fa-star" id="star"></i>
+                <i class="fa-solid fa-star" id="star-opacity"></i>
             </div>
             <p>Inspirez, motivez et fédérez votre équipe</p>
         </div>
@@ -228,26 +229,30 @@
 
     <div class="main__avantages">
         <h1>LES AVANTAGES KLIVIO</h1>
-        <p>Suivi de sa progression <br>
-            Exercices et QCM pour la mise en pratique<br>
-            Possibilité de télécharger/imprimer les formations<br>
-            Contenu qualitatif et vérifié<br>
-            Suivi en autonomie, 24h/24, 7j/7<br>
-            Espaces d&#39échanges dédiés pour poser ses questions sur les formations</p>
+        <ul>
+            <li id="arrow">Suivi de sa progression </li>
+            <li id="pen">Exercices et QCM pour la mise en pratique</li>
+            <li id="download">Possibilité de télécharger/imprimer les formations</li>
+            <li id="empty-star">Contenu qualitatif et vérifié</li>
+            <li id="clock">Suivi en autonomie, 24h/24, 7j/7</li>
+            <li id="msg">Espaces d&#39échanges dédiés pour poser ses questions <br>sur les formations</li>
+        </ul>
         <img src="assets/img/avantages.png" alt="Humain de type femelle, souriante, devant son ordinateur portatif">
     </div>
 
     <div class="main__create">
         <h1>CRÉEZ VOS FORMATIONS AVEC KLIVIO</h1>
-        <p>Commission unique, au pourcentage sur les ventes<br>
-            Mise en avant sur la plateforme<br>
-            Contrôle total sur le cours : contenu, prix<br>
-            Fonctionnalités avancées : espace commentaires, 
-                possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, 
-                suivi des statistiques des ventes, gestion de codes promos, gestion de la 
-                facturation, etc
-            Le professeur reste 100% propriétaire de sa formation 
-            et conserve tous ses droits d&#39auteur</p>
+        <ul class="main__create__ul">
+            <li id="money">Commission unique, au pourcentage sur les ventes</li>
+            <li id="heart">Mise en avant sur la plateforme</li>
+            <li id="pencil">Contrôle total sur le cours : contenu, prix</li>
+            <li id="gear">Fonctionnalités avancées : espace commentaires, <br>
+                possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, <br>
+                suivi des statistiques des ventes, gestion de codes promos, gestion de la <br>
+                facturation, etc</li>
+            <li id="profile">Le professeur reste 100% propriétaire de sa formation <br>
+                et conserve tous ses droits d&#39auteur</li>
+        </ul>
         <img src="assets/img/become-author.png">
     </div>
 
