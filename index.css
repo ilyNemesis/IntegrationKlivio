@@ -31,13 +31,8 @@ html * {
     padding: 2%;
 }
 
-.main__NavBox__BurgerMenu {
-    display: flex; 
-    flex-direction: column;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
+@media (max-width: 600px) {
+
 }
 
 /* Hero CSS */
