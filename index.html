@@ -18,11 +18,10 @@
 
         <!-- Burger Menu (pour mobile) -->
 
-        <button class="main__NavBox__BurgerMenu" id="burgerBtn">
+        <input id="main__NavBox__BurgerMenu" type="checkbox" />
+        <label class="BurgerMenu__btn" for="BurgerMenu__toggle">
             <span></span>
-            <span></span>
-            <span></span>
-        </button>
+        </label>
 
         <!-- Nav elements -->
         <nav class="main__NavBox__elements">
@@ -290,9 +289,9 @@
 
     <!-- FOOTER -->
 
-    <div class="footer">
+    <div class="main__footer">
         <!-- image logo -->
-        <div class="footer__legal-mention">
+        <div class="main__footer__legal-mention">
             <ul>
                 <li>CGU</li>
                 <li>CGV</li>
@@ -301,14 +300,30 @@
             </ul>
         </div>
         
-        <div class="footer__coordonnées">
+        <div class="main__footer__coordonnées">
             <ul>
                 <li>1 place république, <br> 75003 Paris</li>
                 <li>01.02.03.04.05</li>
                 <li>contact@klivio.fr</li>
             </ul>
         </div>
+    
+
+    <!-- FOOTER DESKTOP ONLY -->
+        <div class="main__footer__desktop">
+            <button class="main__footer__desktop__button-SignUp">Connexion</button>
+            <button class="main__footer__desktop__button-SignIn">Inscription</button>
+            <p>© Klivio -  2025</p>
+            <div class="main__footer__reseaux">
+                <p>Suivez - nous</p>
+                <img src="assets/icons/Social Icons(1).svg">
+                <img src="assets/icons/Social Icons.svg">
+                <img src="assets/icons/Social Icons(2).svg">
+                <img src="assets/icons/Vector.svg">
+            </div>
+        </div>
     </div>
+
 
 </body>
 

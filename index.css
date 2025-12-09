@@ -9,6 +9,7 @@
 
 html * {
     font-family: "Montserrat", sans-serif;
+    max-width: 100%;
 }
 
 .main {
@@ -22,7 +23,6 @@ html * {
     background-color: #152237;
     color: #FFFFFF;
     display: flex;
-    margin-left: ;
 }
 
 .main__NavBox img {
@@ -32,18 +32,12 @@ html * {
 }
 
 .main__NavBox__BurgerMenu {
-    display: flex; /* cache par défaut */
+    display: flex; 
     flex-direction: column;
     background: transparent;
     border: none;
     cursor: pointer;
     padding: 0;
-}
-
-@media screen and (min-width: 500px) {
-    .main__NavBox__BurgerMenu {
-        display: none;
-    }
 }
 
 /* Hero CSS */
