@@ -105,11 +105,7 @@ html * {
     }
 
     .main__NavBox__mobile__burger {
-    visibility: visible;
-    }
-
-    .main__NavBox__elements {
-        visibility: collapse;
+        display: block;
     }
 
     #mobile-burger__toggle {
