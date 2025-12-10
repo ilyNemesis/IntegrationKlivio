@@ -39,7 +39,7 @@ html * {
     /* NavBox items CSS */
 
 #desktop__SignUp {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 7.738%;
     border: 0px;
     border-radius: 0.375rem;
 
@@ -48,14 +48,14 @@ html * {
 }
 
 #desktop__SignIn {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 7.738%;
     border: 0px;
     border-radius: 0.375rem;
 }
 
 #desktop__search {
     height: 2.5rem;
-    width: 29.813rem;
+    width: 28.393%;
     border: 1px;
     border-radius: 0.375rem;
 
@@ -72,14 +72,14 @@ html * {
 /* mettre tout le CSS mobile dans @media */
 
 .main__NavBox__mobile__burger {
-    visibility: collapse;
+    display: none;
 }
 
 @media (max-width: 600px) {
 
     #desktop__formation { visibility: collapse;}
 
-    .main__NavBox__elements__btn { visibility: collapse;}
+    .main__NavBox__elements__btn { display: none;}
 
     #desktop__search { visibility: collapse;}
 
