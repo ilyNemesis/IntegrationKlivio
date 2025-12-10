@@ -77,6 +77,12 @@ html * {
 
 @media (max-width: 600px) {
 
+    #desktop__formation { visibility: collapse;}
+
+    .main__NavBox__elements__btn { visibility: collapse;}
+
+    #desktop__search { visibility: collapse;}
+
     .main__NavBox__logo {
         height: 1.875rem;
         width: auto;
@@ -88,7 +94,7 @@ html * {
     }
 
     .main__NavBox__elements {
-        visibility: hidden;
+        visibility: collapse;
     }
 
     #mobile-burger__toggle {
