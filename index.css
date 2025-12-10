@@ -30,10 +30,25 @@ html * {
     align-items: center;
 }
 
+.main__NavBox input::placeholder {
+    height: 1.125rem;
+    width: auto;
+    font-weight: 500 !important;
+    font-size: 0.938rem;
+    letter-spacing: -1.5%;
+
+    color: #FFFFFF;
+}
+
 .main__NavBox__logo {
     height: 1.875rem;
     width: auto;
     padding: 1.563rem;
+}
+
+.main__NavBox__elements__btn {
+    display: flex;
+    justify-content: space-between;
 }
 
     /* NavBox items CSS */
