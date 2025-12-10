@@ -17,27 +17,197 @@ html * {
 }
 /* Nav Box CSS */
     /* ajouter le CSS pour la version desktop de la nav bar */
+
 .main__NavBox {
     width: 100%;
-    height: 80px;
+    height: 5rem;
+
     background-color: #152237;
     color: #FFFFFF;
+    
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.main__NavBox img {
-    height: 50%;
+.main__NavBox__logo {
+    height: 1.875rem;
     width: auto;
-    padding: 2%;
+    padding: 1.563rem;
+}
+
+    /* NavBox items CSS */
+
+#desktop__SignUp {
+    padding: 0.5rem 1rem;
+    border: 0px;
+    border-radius: 0.375rem;
+
+    background: linear-gradient(135deg, #44DD8A, #15B7E2);
+    opacity: 100% !important;
+}
+
+#desktop__SignIn {
+    padding: 0.5rem 1rem;
+    border: 0px;
+    border-radius: 0.375rem;
+}
+
+#desktop__search {
+    height: 2.5rem;
+
+    background-color: #152237;
+    color: #FFFFFF;
+
+    background: url("assets/icons/icone.svg") no-repeat right;
+    background-position: 95%;
 }
 
 /* mettre tout le CSS mobile dans @media */
 
+.main__NavBox__mobile__burger {
+    visibility: collapse;
+}
+
 @media (max-width: 600px) {
 
+    .main__NavBox__logo {
+        height: 1.875rem;
+        width: auto;
+        padding: 1.563rem;
+    }
+
+    .main__NavBox__mobile__burger {
+    visibility: visible;
+    }
+
+    .main__NavBox__elements {
+        visibility: collapse;
+    }
+
+    #mobile-burger__toggle {
+        opacity: 0;
+    }
+
+    #mobile-burger__toggle:checked ~ .mobile-burger__btn > span {
+        transform: rotate(45deg);
+    }
+    #mobile-burger__toggle:checked ~ .mobile-burger__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+    #mobile-burger__toggle:checked ~ .mobile-burger__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    #mobile-burger__toggle:checked ~ .mobile-burger__box {
+        visibility: visible;
+        left: 0;
+    }
+
+    .mobile-burger__btn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 3.5%;
+        left: 85%;
+
+        width: 1.625rem;
+        height: 1.625rem;
+
+        z-index: 10;
+    }
+
+    .mobile-burger__btn > span,
+    .mobile-burger__btn > span::before,
+    .mobile-burger__btn > span::after {
+        display: block;
+        position: absolute;
+
+        width: 100%;
+        height: 2px;
+
+        background-color: #FFFFFF;
+
+        transition-duration: .25s;
+    }
+    .mobile-burger__btn > span::before {
+        content: '';
+        top: -8px;
+    }
+    .mobile-burger__btn > span::after {
+        content: '';
+        top: 8px;
+    }
+
+    .mobile-burger__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: 100%;
+        z-index: 9;
+
+        width: 75%;
+        height: 100%;
+
+        margin: 0% 25%;
+        padding: 80px 0;
+
+        background-color: #152237;
+        opacity: 95%; /* transparence ul */
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+        transition-duration: .25s;
+    }
+
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+
+        color: #ffffff;
+        opacity: 100% !important; /* il va me rendre fou haha hahahaa HAHAHAHHAHAHAHAHAHA !!!!*/
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+
+        transition-duration: .25s;
+    }
+
+    /* Burger menu items CSS */
+    #mobile__SignUp {
+        padding: 0.5rem 1rem;
+        border: 0px;
+        border-radius: 1rem;
+
+        background: linear-gradient(135deg, #44DD8A, #15B7E2);
+        opacity: 100% !important;
+    }
+
+    #mobile__SignIn {
+        padding: 0.5rem 1rem;
+        border: 0px;
+        border-radius: 1rem;
+    }
+
+    #mobile__search {
+        height: 2.5rem;
+
+        background-color: #152237;
+        color: #FFFFFF;
+
+        background: url("assets/icons/icone.svg") no-repeat right;
+        background-position: 95%;
+    }
 }
 
 /* Hero CSS */
+
+/* Modifier @media pour faire le hero mobile */
+@media (max-width: 600px) {
+
+}
 
 .main__hero {
     width: 100%;

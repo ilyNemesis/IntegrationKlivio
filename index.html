@@ -14,25 +14,34 @@
     <!-- NAV BOX -->
 
     <div class="main__NavBox">
-        <img src="assets/img/logo.png" alt="Logo Klivio">
-
-        <!-- Burger Menu (pour mobile) -->
-            <!-- faire div -->
-        <input id="main__NavBox__BurgerMenu" type="checkbox" />
-        <label class="BurgerMenu__btn" for="BurgerMenu__toggle">
-            <span></span>
-        </label>
-            <!-- ajoutez les meme elements qu'en dessous qui seront uniquement visible pour mobile -->
 
         <!-- Nav elements -->
-        <nav class="main__NavBox__elements">
-            <p>Les formations</p>
-            <input type="text" placeholder="Rechercher">
-            <i class="fa-solid fa-magnifying-glass" id="search"></i>
-            <button class="main__NavBox__button-SignUp">Connexion</button>
-            <button class="main__NavBox__button-SignIn">Inscription</button>
-        </nav>
+        <img class="main__NavBox__logo" src="assets/icons/logo.svg" alt="Logo Klivio">
+        <p id="desktop__formation">Les formations</p>
+        <input type="text" placeholder="Rechercher" id="desktop__search">
+        <div class="main__NavBox__elements__btn">
+            <button class="main__NavBox__button-SignUp" id="desktop__SignUp">Connexion</button>
+            <button class="main__NavBox__button-SignIn" id="desktop__SignIn">Inscription</button>
+        </div>
+    <!-- </div> -->
+
+        <!-- Nav mobile elements -->
+    <!-- <div class="main__NavBox__mobile"> -->
+        <div class="main__NavBox__mobile__burger">
+            <input id="mobile-burger__toggle" type="checkbox" />
+            <label class="mobile-burger__btn" for="mobile-burger__toggle">
+                <span></span>
+            </label>
+
+            <ul class="mobile-burger__box">
+                <li class="menu__item">Les formations</li>
+                <li class="menu__item"><input type="text" placeholder="Rechercher" id="mobile__search"></li>
+                <li class="menu__item"><button id="mobile__SignIn">Connexion</button></li>
+                <li class="menu__item"><button id="mobile__SignUp">Inscription</button></li>
+            </ul>
+        </div>
     </div>
+
 
     <!-- HERO BOX-->
 
