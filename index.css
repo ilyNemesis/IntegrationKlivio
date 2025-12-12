@@ -333,18 +333,45 @@ html * {
 /* Formations populaires CSS */
 
 #popular {
-    margin-top: 13%;
+    margin-top: 3%;
+    margin-left: 5.5%;
 }
 
 .main__formations-populaire__content {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4%;
+}
 
-    margin: 5%;
+/* .main__formations-populaire__public-speech {
+    grid-column-start: 1;
+    grid-row-start: 2;
+} */
+
+.main__formation-populaire__stress {
+    grid-column-start: 3;
+    grid-row-start: 2;
 }
 
 
+
+
+
+@media (max-width: 600px) {
+    #popular {
+        margin-left: 2rem;
+    }
+
+    .main__formations-populaire__content {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        margin: 5%;
+    }
+}
 
 /* Formations récentes CSS */
 
