@@ -405,13 +405,18 @@ html * {
     }
 
     .main__formation-populaire__price {
-        margin-left: 50%;
-        margin-top: 0;
+        margin-left: 40%;
+        margin-bottom: 210px;
+    }
+
+    #equipe {
+        margin-left: 40%;
+        margin-bottom: 250px;
     }
 
     .main__formations-populaire__content {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
 
         margin: 5%;
