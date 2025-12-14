@@ -443,6 +443,10 @@ html * {
     z-index: 2; 
 }
 
+.main__formation-populaire__LearnMore {
+    text-align: center;
+}
+
 /* Formations récentes CSS */
     /* pareil ici, remplace les price par des position, top, left.*/
 
@@ -551,18 +555,30 @@ html * {
     z-index: 2; 
 }
 
+.main__formations-recentes__LearnMore {
+    text-align: center;
+}
+
 /* Avis clients */
 
-.main__avis-clients {
-
+.main__avis-clients h1 {
+    text-align: center;
 }
+
+.main__avis-clients__avis {
+    display: flex;
+    align-content: space-evenly;
+}
+
 
 .main__avis-clients img {
     border-radius: 50%;
 }
 
 @media (max-width: 600px) {
-    .main__avis-clients {
+    .main__avis-clients__avis {
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 }
