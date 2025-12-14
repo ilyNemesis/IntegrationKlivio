@@ -393,7 +393,7 @@ html * {
 
 @media (max-width: 600px) {
     #popular {
-        margin-left: 2rem;
+        text-align: center;
     }
 
     .main__formation-populaire__card {
