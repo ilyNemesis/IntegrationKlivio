@@ -551,6 +551,22 @@ html * {
     z-index: 2; 
 }
 
+/* Avis clients */
+
+.main__avis-clients {
+
+}
+
+.main__avis-clients img {
+    border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+    .main__avis-clients {
+        text-align: center;
+    }
+}
+
 /* Créer formations */
 
 .main__create {
