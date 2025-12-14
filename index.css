@@ -1,12 +1,4 @@
 /* Whole body CSS */
-
-.montserrat-montserratfont {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
 html * {
     font-family: "Montserrat", sans-serif;
     max-width: 100%;
@@ -58,7 +50,7 @@ html * {
     /* NavBox items CSS */
 
 #desktop__SignUp {
-    padding: 0.5rem 7.738%;
+    padding: 0.688rem 1.563rem;
     border: 0px;
     border-radius: 0.375rem;
 
@@ -70,7 +62,7 @@ html * {
 }
 
 #desktop__SignIn {
-    padding: 0.5rem 7.738%;
+    padding: 0.688rem 1.563rem;
     border: 0px;
     border-radius: 0.375rem;
 
@@ -271,6 +263,8 @@ html * {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        z-index: 4;
     }
 }
 
@@ -283,8 +277,9 @@ html * {
     background-position: center;
     position: relative;
     display: flex;
+
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -303,21 +298,35 @@ html * {
 
 .main__hero h1 {
     color: #152237;
+    font-size: 3rem;
+    font-style: bold;
+    font-weight: 800;
+    letter-spacing: -1,5%;
+
     text-align: center;
     position: relative;
+
     z-index: 2; /* prio du texte, s'affiche devant le bg */
 }
 
 .main__hero h2 {
     color: #152237;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+
+
     text-align: center;
     position: relative;
+
     z-index: 2;
 }
 .main__hero button {
     color: #152237;
 
-    padding: 0.5rem 7.738%;
+    padding: 0.688rem 0.875rem;
     border: 0px;
     border-radius: 0.375rem;
 
@@ -345,23 +354,59 @@ html * {
     margin-top: 4%;
 }
 
-/* .main__formations-populaire__public-speech {
-    grid-column-start: 1;
-    grid-row-start: 2;
-} */
+.main__formation-populaire__price {
+    width: 120px;
+    height: 31.58px;
 
-.main__formation-populaire__stress {
-    grid-column-start: 3;
-    grid-row-start: 2;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 93px;
+    margin-left: 170px;
+    margin-top: 191px;
+
+    background-color: #152237;
 }
 
+.main__formation-populaire__price h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -1.5%;
 
+    margin-right: 8px;
 
+    color: #FFFFFF;
+}
+
+.main__formation-populaire__price p {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: -1.5%;
+    line-height: 7px;
+    text-decoration: line-through;
+
+    color: #FFFFFF;
+}
 
 
 @media (max-width: 600px) {
     #popular {
         margin-left: 2rem;
+    }
+
+    .main__formation-populaire__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:19.063rem;
+        /* height: 206px; */
+    }
+
+    .main__formation-populaire__price {
+        margin-left: 50%;
+        margin-top: 0;
     }
 
     .main__formations-populaire__content {
