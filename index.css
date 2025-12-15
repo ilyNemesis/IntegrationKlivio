@@ -363,11 +363,12 @@ html * {
     position: relative;
     justify-content: center;
     align-items: center;
-    top: 37%;
-    left: 20%;
+    top: 51%;
+    left: 43%;
     border-radius: 93px;
 
     background-color: #152237;
+    box-shadow: 5px 4px 13.2px -1px #00000040;
 }
 
 .main__formation-populaire__price h1 {
@@ -404,15 +405,30 @@ html * {
     }
 
     .main__formation-populaire__price {
-        margin-left: 40%;
-        margin-bottom: 210px;
-        box-shadow: 5px 4px 13.2px -1px #00000040;
 
+        width: 120px;
+        height: 31.58px;
+
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 48%;
+        left: 58%;
+        border-radius: 93px;
+
+        background-color: #152237;
+        box-shadow: 5px 4px 13.2px -1px #00000040;
     }
 
     #equipe {
-        margin-left: 40%;
-        margin-bottom: 250px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 44%;
+        left: 18%;
+        border-radius: 93px;
     }
 
     .main__formations-populaire__content {
@@ -473,15 +489,15 @@ html * {
     height: 31.58px;
 
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: center;
     align-items: center;
-
+    top: 49%;
+    left: 43%;
     border-radius: 93px;
-    margin-left: 170px;
-    margin-top: 191px;
 
     background-color: #FFFFFF;
+    box-shadow: 5px 4px 13.2px -1px #00000040;
 }
 
 .main__formations-recentes__price h1 {
@@ -519,15 +535,28 @@ html * {
     }
 
     .main__formations-recentes__price {
-        margin-left: 40%;
-        margin-bottom: 245px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+
+        top: 44%;
+        left: 58%;
+
+        border-radius: 93px;
         box-shadow: 5px 4px 13.2px -1px #00000040;
-
     }
 
-    #equipe {
-        margin-left: 40%;
+    #leadership {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+
+        top: 48%;
+        left: 58%;
     }
+
     .main__formations-recentes__content {
         display: flex;
         justify-content: center;
