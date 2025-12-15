@@ -589,6 +589,10 @@ html * {
 
 /* Avis clients */
 
+.main__avis-clients {
+
+}
+
 .main__avis-clients h1 {
     text-align: center;
 }
@@ -608,6 +612,21 @@ html * {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+}
+
+/* Avantages Klivio */
+
+.main__avantages {
+    background-color: #F5F5F5;
+}
+
+@media (max-width: 600px) {
+    .main__avantages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
