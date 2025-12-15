@@ -624,6 +624,14 @@ html * {
         align-items: center;
         justify-content: center;
     }
+
+    .main__avantages h1 {
+        align-items: center;
+    }
+
+    .main__avatanges img {
+        width: 95%;
+    }
 }
 
 /* Créer formations */
