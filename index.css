@@ -345,6 +345,12 @@ html * {
 #popular {
     margin-top: 3%;
     margin-left: 5.5%;
+
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 36px;
+    line-height: 72px;
+    letter-spacing: -1.5%;
 }
 
 .main__formations-populaire__content {
@@ -509,6 +515,13 @@ html * {
 #recent {
     margin-top: 3%;
     margin-left: 5.5%;
+
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 36px;
+    line-height: 72px;
+    letter-spacing: -1.5%;
+
 }
 
 .main__formations-recentes__content {
@@ -592,7 +605,7 @@ html * {
         justify-content: center;
         align-items: center;
 
-        top: 44%;
+        top: 48%;
         left: 58%;
 
         border-radius: 93px;
@@ -643,6 +656,11 @@ html * {
 
 .main__avis-clients h1 {
     text-align: center;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 36px;
+    line-height: 72px;
+    letter-spacing: -1.5%;
 }
 
 .main__avis-clients__avis {
