@@ -472,8 +472,9 @@ html * {
 }
 
 #recent {
-    margin-top: 3%;
-    margin-left: 5.5%;
+    position: relative;
+    left: 6%;
+    /* top: j'abandonne c'est vraiment pas fais pour moi; */
 }
 
 .main__formations-recentes__content {
