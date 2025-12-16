@@ -348,11 +348,28 @@ html * {
 }
 
 .main__formations-populaire__content {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__formation-populaire__card {
+    width: 305px;
+}
+
+.main__formation-populaire__card h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+
+}
+
+.main__formation-populaire__card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+
 }
 
 .main__formation-populaire__price {
@@ -363,8 +380,8 @@ html * {
     position: relative;
     justify-content: center;
     align-items: center;
-    top: 51%;
-    left: 43%;
+    top: 49%;
+    left: 58%;
     border-radius: 93px;
 
     background-color: #152237;
@@ -380,7 +397,25 @@ html * {
 
     color: #FFFFFF;
 }
+.main__formations-recentes__card {
+    width: 305px;
+}
 
+.main__formations-recentes__card h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+
+}
+
+.main__formations-recentes__card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+
+}
 .main__formation-populaire__price p {
     font-size: 10px;
     font-weight: 400;
@@ -472,17 +507,33 @@ html * {
 }
 
 #recent {
-    position: relative;
-    left: 6%;
-    /* top: j'abandonne c'est vraiment pas fais pour moi; */
+    margin-top: 3%;
+    margin-left: 5.5%;
 }
 
 .main__formations-recentes__content {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__formations-recentes__card {
+    width: 305px;
+}
+
+.main__formations-recentes__card h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+
+}
+
+.main__formations-recentes__card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+
 }
 
 .main__formations-recentes__price {
@@ -494,7 +545,7 @@ html * {
     justify-content: center;
     align-items: center;
     top: 49%;
-    left: 43%;
+    left: 58%;
     border-radius: 93px;
 
     background-color: #FFFFFF;
@@ -596,12 +647,31 @@ html * {
 
 .main__avis-clients__avis {
     display: flex;
-    align-content: space-evenly;
+    justify-self: center;
+    align-items: flex-start;
+
 }
 
+.main__avis-clients__juliette {
+    width: 50%;
+    margin-left: 150px;
+    margin-right: 12px;
+}
 
-.main__avis-clients img {
+.main__avis-clients__juliette img {
     border-radius: 50%;
+    width: 139px;
+}
+
+.main__avis-clients__camille {
+    width: 50%;
+    margin-right: 150px;
+    margin-left: 12px;
+}
+
+.main__avis-clients__camille img {
+    border-radius: 50%;
+    width: 139px;
 }
 
 @media (max-width: 600px) {
