@@ -688,6 +688,28 @@ html * {
         flex-direction: column;
         text-align: center;
     }
+
+    .main__avis-clients__juliette {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main__avis-clients__juliette img {
+        border-radius: 50%;
+        width: 139px;
+    }
+
+    .main__avis-clients__camille {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .main__avis-clients__camille img {
+        border-radius: 50%;
+        width: 139px;
+    }
 }
 
 /* Avantages Klivio */
