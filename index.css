@@ -757,6 +757,39 @@ html * {
 }
 
     /* Avantages KLIVIO */
+
+.main__avantages {
+    height: 641px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main__avantages__flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__avantages__flex__list h1 {
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+}
+
+.main__avantages__flex__list li {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+}
+
+.main__avantages__flex img {
+    width: 727px;
+    height: 472px;
+}
+
 #arrow { list-style-image: url(assets/icons/arrow-up-right.svg);}
 
 #pen { list-style-image: url(assets/icons/edit-01.svg);}
