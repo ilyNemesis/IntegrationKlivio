@@ -760,14 +760,24 @@ html * {
 
 .main__avantages {
     height: 641px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .main__avantages__flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: relative;
+    top: 15%;
+}
+
+.main__avantages__flex__list {
+    position: relative;
+    bottom: 39px;
+}
+
+.main__avantages__flex__list ul {
+    margin-top: 43px;
 }
 
 .main__avantages__flex__list h1 {
@@ -792,15 +802,50 @@ html * {
 
 #arrow { list-style-image: url(assets/icons/arrow-up-right.svg);}
 
+#arrow p {
+    position: relative;
+    left: 35px;
+}
+
+#arrow::marker {
+    position: relative;
+    bottom: 12px;
+}
+
 #pen { list-style-image: url(assets/icons/edit-01.svg);}
+
+#pen p {
+    position: relative;
+    left: 35px;
+}
 
 #download { list-style-image: url(assets/icons/download-02.svg);}
 
+#download p {
+    position: relative;
+    left: 35px;
+}
+
 #empty-star { list-style-image: url(assets/icons/star-02.svg);}
+
+#empty-star p {
+    position: relative;
+    left: 35px;
+}
 
 #clock { list-style-image: url(assets/icons/clock-backward.svg);}
 
+#clock p {
+    position: relative;
+    left: 35px;
+}
+
 #msg { list-style-image: url(assets/icons/annotation-typing.svg);}
+
+#msg p {
+    position: relative;
+    left: 35px;
+}
 
     /* Create formations */
 #money { list-style-image: url(assets/icons/coin-hand.svg);}
