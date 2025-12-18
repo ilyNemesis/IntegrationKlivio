@@ -248,33 +248,15 @@ html * {
 /* Hero CSS */
 
 /* Modifier @media pour faire le hero mobile */
-@media (max-width: 600px) {
-
-    .main__hero {
-        width: 100%;
-        height: auto;
-
-        background-image: url(assets/img/bg-header-mobile.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        position: relative;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        z-index: 4;
-    }
-}
 
 .main__hero {
     width: 100%;
     height: 28.125rem;
 
     background-image: url(assets/img/bg-header.png);
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     position: relative;
     display: flex;
 
@@ -338,6 +320,47 @@ html * {
     position: relative;
     z-index: 2;
 }
+
+
+@media (max-width: 600px) {
+
+    .main__hero {
+        width: 100%;
+        height: 364px;
+
+        background-image: url(assets/img/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        z-index: 4;
+    }
+
+    .main__hero h1 {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -1.5%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .main__hero h2 {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: -1.5%;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
 
 /* Formations populaires CSS */
     /* si t'as le temps remplace les price par des position, top, left.*/
@@ -712,39 +735,6 @@ html * {
     }
 }
 
-/* Avantages Klivio */
-
-.main__avantages {
-    background-color: #F5F5F5;
-}
-
-@media (max-width: 600px) {
-    .main__avantages {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .main__avantages h1 {
-        align-items: center;
-    }
-
-    .main__avatanges img {
-        width: 95%;
-    }
-}
-
-/* Créer formations */
-
-.main__create {
-    width: 100%;
-    background-color: #44DD8A;
-    color: #152237;
-}
-
-/* About us */
-
 /* Icons CSS */
 
 #star {
@@ -758,8 +748,9 @@ html * {
 
     /* Avantages KLIVIO */
 
-.main__avantages {
+/* .main__avantages {
     height: 641px;
+    background-color: #F5F5F5;
 }
 
 .main__avantages__flex {
@@ -798,7 +789,55 @@ html * {
 .main__avantages__flex img {
     width: 727px;
     height: 472px;
+} */
+
+@media (max-width: 600px) {
+    .main__avantages {
+        height: 832px;
+        background-color: #F5F5F5;
+    }
+
+    .main__avantages__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__avantages__flex img {
+        width: 82vw;
+        height: auto;
+    }
+
+    .main__avantages__flex__list h1 {
+        font-weight: 900;
+        font-style: Black;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5%;
+        text-align: center;
+
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-top: 25px;
+    }
+
+    .main__avantages__flex__list li {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -1.5%;
+    }
+
+    .main__avantages__flex__list ul {
+        margin-top: 17px;
+    }
+
+    .main__avantages__flex__list ul {
+        margin-right: 43px;
+    }
 }
+
 
 #arrow { list-style-image: url(assets/icons/arrow-up-right.svg);}
 
@@ -848,12 +887,132 @@ html * {
 }
 
     /* Create formations */
+
+.main__create {
+    height: 641px;
+    width: 100%;
+    background-color: #44DD8A;
+    color: #152237;
+}
+
+.main__create__flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: relative;
+    top: 15%;
+}
+
+.main__create__flex__list {
+    position: relative;
+    bottom: 30px;
+}
+
+.main__create__flex__list ul {
+    margin-top: 43px;
+}
+
+.main__create__flex__list h1 {
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+}
+
+.main__create__flex__list li {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+}
+
+.main__create__flex img {
+    width: 727px;
+    height: 472px;
+}
+
+@media (max-width: 600px) {
+    .main__create {
+        background-color: #44DD8A;
+        height: 1020px;
+    }
+
+    .main__create__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        position: static;
+    }
+
+    .main__create__flex img {
+        width: 82vw;
+        height: auto;
+    }
+
+    .main__create__flex h1 {
+        font-weight: 900;
+        font-style: Black;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5%;
+        text-align: center;
+
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-top: 25px;
+    }
+
+    .main__create__flex__list li {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -1.5%;
+    }
+
+    .main__create__flex__list ul {
+        margin-top: 17px;
+    }
+
+    .main__create__flex__list ul {
+        margin-top: 17px;
+    }
+}
+
 #money { list-style-image: url(assets/icons/coin-hand.svg);}
+
+#money p {
+    position: relative;
+    left: 35px;
+}
 
 #heart { list-style-image: url(assets/icons/heart.svg);}
 
+#heart p {
+    position: relative;
+    left: 35px;
+}
+
 #pencil { list-style-image: url(assets/icons/pencil-01.svg);}
+
+#pencil p {
+    position: relative;
+    left: 35px;
+}
 
 #gear { list-style-image: url(assets/icons/settings.svg);}
 
+#gear p {
+    position: relative;
+    left: 35px;
+}
+
 #profile { list-style-image: url(assets/icons/user-profile-square.svg);}
+
+#profile p {
+    position: relative;
+    left: 35px;
+} 
