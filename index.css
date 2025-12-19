@@ -791,6 +791,49 @@ html * {
     height: 472px;
 } */
 
+
+#arrow { list-style-image: url(assets/icons/arrow-up-right.svg);}
+
+#arrow p {
+    position: relative;
+    left: 35px;
+}
+
+#pen { list-style-image: url(assets/icons/edit-01.svg);}
+
+#pen p {
+    position: relative;
+    left: 35px;
+}
+
+#download { list-style-image: url(assets/icons/download-02.svg);}
+
+#download p {
+    position: relative;
+    left: 35px;
+}
+
+#empty-star { list-style-image: url(assets/icons/star-02.svg);}
+
+#empty-star p {
+    position: relative;
+    left: 35px;
+}
+
+#clock { list-style-image: url(assets/icons/clock-backward.svg);}
+
+#clock p {
+    position: relative;
+    left: 35px;
+}
+
+#msg { list-style-image: url(assets/icons/annotation-typing.svg);}
+
+#msg p {
+    position: relative;
+    left: 35px;
+}
+
 @media (max-width: 600px) {
     .main__avantages {
         height: 832px;
@@ -829,61 +872,35 @@ html * {
         letter-spacing: -1.5%;
     }
 
-    .main__avantages__flex__list ul {
-        margin-top: 17px;
+
+    #arrow p {
+        position: relative;
+        left: 17px;
     }
 
-    .main__avantages__flex__list ul {
-        margin-right: 43px;
+    #pen p {
+        position: relative;
+        left: 17px;
     }
-}
+    #download p {
+        position: relative;
+        left: 17px;
+    }
 
+    #empty-star p {
+        position: relative;
+        left: 17px;
+    }
 
-#arrow { list-style-image: url(assets/icons/arrow-up-right.svg);}
+    #clock p {
+        position: relative;
+        left: 17px;
+    }
 
-#arrow p {
-    position: relative;
-    left: 35px;
-}
-
-#arrow::marker {
-    position: relative;
-    bottom: 12px;
-}
-
-#pen { list-style-image: url(assets/icons/edit-01.svg);}
-
-#pen p {
-    position: relative;
-    left: 35px;
-}
-
-#download { list-style-image: url(assets/icons/download-02.svg);}
-
-#download p {
-    position: relative;
-    left: 35px;
-}
-
-#empty-star { list-style-image: url(assets/icons/star-02.svg);}
-
-#empty-star p {
-    position: relative;
-    left: 35px;
-}
-
-#clock { list-style-image: url(assets/icons/clock-backward.svg);}
-
-#clock p {
-    position: relative;
-    left: 35px;
-}
-
-#msg { list-style-image: url(assets/icons/annotation-typing.svg);}
-
-#msg p {
-    position: relative;
-    left: 35px;
+    #msg p {
+        position: relative;
+        left: 17px;
+    }
 }
 
     /* Create formations */
@@ -966,7 +983,7 @@ html * {
         margin-top: 25px;
     }
 
-    .main__create__flex__list li {
+    .main__create__flex__list p {
         font-weight: 400;
         font-size: 20px;
         line-height: 28px;
