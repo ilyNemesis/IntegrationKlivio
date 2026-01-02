@@ -261,7 +261,7 @@ html * {
     display: flex;
 
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -748,7 +748,7 @@ html * {
 
     /* Avantages KLIVIO */
 
-/* .main__avantages {
+ .main__avantages {
     height: 641px;
     background-color: #F5F5F5;
 }
@@ -789,7 +789,7 @@ html * {
 .main__avantages__flex img {
     width: 727px;
     height: 472px;
-} */
+}
 
 
 #arrow { list-style-image: url(assets/icons/arrow-up-right.svg);}
@@ -836,7 +836,7 @@ html * {
 
 @media (max-width: 600px) {
     .main__avantages {
-        height: 832px;
+        height: auto;
         background-color: #F5F5F5;
     }
 
@@ -845,11 +845,21 @@ html * {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        position: relative;
+        top: 2%;
     }
 
     .main__avantages__flex img {
         width: 82vw;
         height: auto;
+
+        margin-bottom: 38px;
+    }
+
+    .main__avantages__flex__list {
+        margin-left: 28px;
+        margin-right: 24px;
     }
 
     .main__avantages__flex__list h1 {
@@ -862,7 +872,9 @@ html * {
 
         margin-left: 22px;
         margin-right: 22px;
-        margin-top: 25px;
+
+        position: relative;
+        top: 40px;
     }
 
     .main__avantages__flex__list li {
@@ -950,55 +962,6 @@ html * {
     height: 472px;
 }
 
-@media (max-width: 600px) {
-    .main__create {
-        background-color: #44DD8A;
-        height: 1020px;
-    }
-
-    .main__create__flex {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        position: static;
-    }
-
-    .main__create__flex img {
-        width: 82vw;
-        height: auto;
-    }
-
-    .main__create__flex h1 {
-        font-weight: 900;
-        font-style: Black;
-        font-size: 30px;
-        line-height: 36px;
-        letter-spacing: -1.5%;
-        text-align: center;
-
-        margin-left: 22px;
-        margin-right: 22px;
-        margin-top: 25px;
-    }
-
-    .main__create__flex__list p {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        letter-spacing: -1.5%;
-    }
-
-    .main__create__flex__list ul {
-        margin-top: 17px;
-    }
-
-    .main__create__flex__list ul {
-        margin-top: 17px;
-    }
-}
-
 #money { list-style-image: url(assets/icons/coin-hand.svg);}
 
 #money p {
@@ -1033,3 +996,267 @@ html * {
     position: relative;
     left: 35px;
 } 
+
+@media (max-width: 600px) {
+    .main__create {
+        background-color: #44DD8A;
+        height: auto;
+    }
+
+    .main__create__flex {
+        background-color: #44DD8A;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        position: static;
+    }
+
+    .main__create__flex img {
+        width: 82vw;
+        height: auto;
+    }
+
+    .main__create__flex h1 {
+        font-weight: 900;
+        font-style: Black;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5%;
+        text-align: center;
+
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-top: 25px;
+    }
+
+    .main__create__flex__list p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -1.5%;
+
+        width: 272px;
+    }
+
+    .main__create__flex__list ul {
+        position: relative;
+        top: 3%;
+    }
+
+    #money p {
+        position: relative;
+        left: 35px;
+    }
+
+    #heart p {
+        position: relative;
+        left: 35px;
+    }
+
+    #pencil p {
+        position: relative;
+        left: 35px;
+    }
+
+    #gear p {
+        position: relative;
+        left: 35px;
+    }
+
+    #profile p {
+        position: relative;
+        left: 35px;
+    } 
+
+}
+
+/* About us */
+
+.main__about {
+    background-color: #F5F5F5;
+}
+
+@media (max-width: 600px) {
+    .main__about__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0px 24px;
+        margin-bottom: 27px;
+    }
+
+    .main__about__text h1 {
+        text-align: center;
+    }
+
+    .main__about__logo {
+        background-color: #152237;
+    }
+
+    .main__about__logo img {
+        width: 214px;
+        height: 77px;
+
+        position: relative;
+        left: 25%;
+
+        padding-top: 146px;
+        padding-bottom: 146px;
+    }
+}
+
+/* Contact us */
+
+@media (max-width: 600px) {
+    
+    h1 {
+        text-align: center;
+
+        font-weight: 900;
+        font-style: Black;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__contact__form__first {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main__contact__form__name {
+        background-color: #152237;
+        border: 0px;
+
+        width: 356px;
+        height: 45px;
+    }
+
+    .main__contact__form__name::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+
+        position: relative;
+        left: 13px;
+
+        color: #FFFFFF;
+    }
+
+    .main__contact__form__email {
+        background-color: #152237;
+        border: 0px;
+
+        margin: 21px 0px;
+        width: 356px;
+        height: 45px;
+    }
+
+    .main__contact__form__email::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+
+        position: relative;
+        left: 13px;
+
+        color: #FFFFFF;
+    }
+
+    .main__contact__form__msg {
+        background-color: #152237;
+        border: 0px;
+
+        width: 356px;
+        height: 185px;
+    }
+
+    .main__contact__form__msg::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+
+        position: relative;
+        left: 13px;
+        bottom: 75px;
+
+        color: #FFFFFF;
+    }
+
+    .main__contact__button {
+        background-color: #44DD8A;
+
+        width: 356px;
+        height: 45px;
+
+        border: 0px;
+        border-radius: 6px;
+        margin-top: 22px;
+    }
+}
+
+/* Footer */
+
+@media (max-width: 600px) {
+
+    .main__footer h1 {
+        color: #FFFFFF;
+
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+
+    .main__footer ul {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .main__footer__coordonnées ul {
+        margin-bottom: 0px;
+    }
+
+    .main__footer {
+        background-color: #152237;
+    }
+
+    .main__footer__mobile__rectangle {
+        margin-top: 38px;
+        height: 18px;
+
+        background: linear-gradient(135deg, #44DD8A, #15B7E2);
+    }
+
+    .main__footer__mobile__logo {
+        width: 243px;
+        height: auto;
+
+        margin-top: 45px;
+        margin-left: 75px;
+    }
+
+    .main__footer__desktop {
+        display: none;
+    }
+}

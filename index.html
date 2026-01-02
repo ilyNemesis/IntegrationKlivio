@@ -283,17 +283,19 @@
         </div>
 
         <div class="main__about">
-                <h1>À PROPOS DE KLIVIO</h1>
-                <p>Chez Klivio, nous défendons des valeurs fondamentales qui 
-                    définissent notre approche éducative. Nous nous engageons à 
-                    assurer une rémunération équitable pour les créateurs de contenu, 
-                    reconnaissant la qualité de leur travail. <br>
-                    Favorisant l'autonomie d'apprentissage, notre plateforme offre 
-                    la flexibilité  écessaire pour explorer divers sujets. La transparence est 
-                    au cœur de notre démarche, garantissant une clarté totale sur les 
-                    formations que les instructeurs proposent. Ensemble, ces valeurs 
-                    forment le socle d'une  ducation enrichissante et équitable, guidant 
-                    notre mission d'offrir des pportunités d'apprentissage de qualité</p>
+                <div class="main__about__text">
+                    <h1>À PROPOS DE KLIVIO</h1>
+                    <p>Chez Klivio, nous défendons des valeurs fondamentales qui 
+                        définissent notre approche éducative. Nous nous engageons à 
+                        assurer une rémunération équitable pour les créateurs de contenu, 
+                        reconnaissant la qualité de leur travail. <br>
+                        Favorisant l'autonomie d'apprentissage, notre plateforme offre 
+                        la flexibilité  écessaire pour explorer divers sujets. La transparence est 
+                        au cœur de notre démarche, garantissant une clarté totale sur les 
+                        formations que les instructeurs proposent. Ensemble, ces valeurs 
+                        forment le socle d'une  ducation enrichissante et équitable, guidant 
+                        notre mission d'offrir des pportunités d'apprentissage de qualité</p>
+                </div>
                 <div class="main__about__logo">
                     <img src="assets/img/logo.png">
                 </div>
@@ -307,11 +309,13 @@
             <!-- REMPLACER PAR UN FORMULAIRE -->
             <h1>NOUS CONTACTER</h1>
             <form action="" method="get" class="main__contact__form">
-                <input class="main__contact__form__name" type="text" placeholder="Nom">
-                <input class="main__contact__form__email" class="main__contact__form" type="text" placeholder="Email">
+                <div class="main__contact__form__first">
+                    <input class="main__contact__form__name" type="text" placeholder="Nom">
+                    <input class="main__contact__form__email" class="main__contact__form" type="text" placeholder="Email">
+                </div>
                 <input class="main__contact__form__msg" type="text" placeholder="Votre message">
+                <button class="main__contact__button" type="button">Envoyer</button>
             </form>
-            <button class="main__contact__button" type="button">Envoyer</button>
         </div>
     </main>
 
@@ -320,7 +324,12 @@
     <footer>
         <div class="main__footer">
             <!-- image logo -->
+            <div class="main__footer__mobile__rectangle"></div>
+            <div class="main__footer__mobile__logo">
+                <img src="assets/img/logo.png">
+            </div>
             <div class="main__footer__legal-mention">
+                <h1>Mentions légales</h1>
                 <ul>
                     <li>CGU</li>
                     <li>CGV</li>
@@ -330,15 +339,18 @@
             </div>
             
             <div class="main__footer__coordonnées">
+                <h1>Coordonnées</h1>
                 <ul>
                     <li>1 place république, <br> 75003 Paris</li>
                     <li>01.02.03.04.05</li>
                     <li>contact@klivio.fr</li>
                 </ul>
             </div>
+        </div>
         
 
         <!-- FOOTER DESKTOP ONLY -->
+        <div class="main__footer__desktop">
             <div class="main__footer__desktop">
                 <button class="main__footer__desktop__button-SignUp">Connexion</button>
                 <button class="main__footer__desktop__button-SignIn">Inscription</button>
