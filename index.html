@@ -264,9 +264,10 @@
 
         <div class="main__create">
             <div class="main__create__flex">
-                <h1>CRÉEZ VOS FORMATIONS AVEC KLIVIO</h1>
+                <h1 class="hidden__h1__desktop">CRÉEZ VOS FORMATIONS</h1>
                 <img src="assets/img/become-author.png" alt="a croire j'connais toutes les images">
                 <div class="main__create__flex__list">
+                    <h1 class="hidden__h1__mobile">CRÉEZ VOS FORMATIONS AVEC KLIVIO</h1>
                     <ul class="main__create__ul">
                         <li id="money"><p>Commission unique, au pourcentage sur les ventes</p></li>
                         <li id="heart"><p>Mise en avant sur la plateforme</p></li>
@@ -300,14 +301,32 @@
                     <img src="assets/img/logo.png">
                 </div>
             </div>
+
+            <div class="main__about__hide">
+                <div class="text__about">
+                    <h1>À PROPOS DE KLIVIO</h1>
+                    <p>Chez Klivio, nous défendons des valeurs fondamentales qui 
+                        définissent notre approche éducative. Nous nous engageons à 
+                        assurer une rémunération équitable pour les créateurs de contenu, 
+                        reconnaissant la qualité de leur travail. <br>
+                        Favorisant l'autonomie d'apprentissage, notre plateforme offre 
+                        la flexibilité  écessaire pour explorer divers sujets. La transparence est 
+                        au cœur de notre démarche, garantissant une clarté totale sur les 
+                        formations que les instructeurs proposent. Ensemble, ces valeurs 
+                        forment le socle d'une  ducation enrichissante et équitable, guidant 
+                        notre mission d'offrir des pportunités d'apprentissage de qualité</p>
+                </div>
+                <img src="assets/img/logo.png">
+            </div>
+
             <div id="logoAbout">
 
             </div>
         </div>
 
         <div class="main__contact">
-            <!-- REMPLACER PAR UN FORMULAIRE -->
             <h1>NOUS CONTACTER</h1>
+            <div class="separator"></div>
             <form action="" method="get" class="main__contact__form">
                 <div class="main__contact__form__first">
                     <input class="main__contact__form__name" type="text" placeholder="Nom">
@@ -323,7 +342,6 @@
 
     <footer>
         <div class="main__footer">
-            <!-- image logo -->
             <div class="main__footer__mobile__rectangle"></div>
             <div class="main__footer__mobile__logo">
                 <img src="assets/img/logo.png">
@@ -351,9 +369,39 @@
 
         <!-- FOOTER DESKTOP ONLY -->
         <div class="main__footer__desktop">
-            <div class="main__footer__desktop">
-                <button class="main__footer__desktop__button-SignUp">Connexion</button>
-                <button class="main__footer__desktop__button-SignIn">Inscription</button>
+            <div class="main__footer__mobile__rectangle"></div>
+            <div class="top_part">
+                <div class="first_half">
+                    <div class="main__footer__desktop__logo">
+                        <img src="assets/img/logo.png">
+                    </div>
+                    <div class="main__footer__legal-mention__desktop">
+                        <h1>Mentions légales</h1>
+                        <ul>
+                            <li>CGU</li>
+                            <li>CGV</li>
+                            <li>FAQ</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="second_half">
+                    <div class="main__footer__coordonnées__desktop">
+                        <h1>Coordonnées</h1>
+                        <ul>
+                            <li id="lieux">1 place république, <br> 75003 Paris</li>
+                            <li id="numero">01.02.03.04.05</li>
+                            <li id="contact_mail">contact@klivio.fr</li>
+                        </ul>
+                    </div>
+                    <div class="footer__buttons">
+                        <button class="main__footer__desktop__button-SignUp">Connexion</button>
+                        <button class="main__footer__desktop__button-SignIn">Inscription</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_part">
                 <p>© Klivio -  2025</p>
                 <div class="main__footer__reseaux">
                     <p>Suivez - nous</p>
